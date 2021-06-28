@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
           alignment: Alignment.center,
           color: _color,
           child: Text(
-            _dia.toUpperCase(),
+            '#${_dia.toUpperCase()}',
             style: const TextStyle(color: Colors.white, fontSize: 20),
           ),
         ),
